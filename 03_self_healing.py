@@ -1,3 +1,10 @@
+"""
+Self-healing mechanism demonstration.
+
+This script simulates data drift detection and retraining
+as described in Chapter 3 and Chapter 4 of the project report.
+"""
+
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
