@@ -1,4 +1,9 @@
-# Exploratory Data Analysis for Startup Dataset
+"""
+Exploratory Data Analysis for the project:
+"A Self-Healing Machine Learning System for Predicting Startup Success and Failure in India"
+
+This script supports Chapter 4 (Exploratory Data Analysis) of the project report.
+"""
 
 import pandas as pd
 
