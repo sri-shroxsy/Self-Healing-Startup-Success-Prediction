@@ -1,5 +1,9 @@
-# 02_model_training.py
-# Model Training and Comparison for Startup Success Prediction
+"""
+Model training and evaluation script.
+
+Implements Logistic Regression, Random Forest, and Gradient Boosting
+as described in Chapter 4 and Chapter 5 of the project report.
+"""
 
 import pandas as pd
 from sklearn.model_selection import train_test_split
