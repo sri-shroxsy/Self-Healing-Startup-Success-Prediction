@@ -5,6 +5,10 @@ This repository contains the implementation of the final year BCA (Data Science)
 ## Project Overview
 The project focuses on predicting startup success and failure in India using machine learning classification models. It also demonstrates a basic self-healing mechanism that detects data pattern changes and triggers retraining to maintain model reliability over time.
 
+## Dataset
+The project uses a publicly available Indian startup funding dataset
+along with manually added examples for recent startups.
+
 ## Technologies Used
 - Python
 - Pandas, NumPy
@@ -32,3 +36,11 @@ titled **“A Self-Healing Machine Learning System for Predicting Startup Succes
 
 The code structure and logic directly align with the methodology, architecture,
 and analysis described in Chapters 3, 4, and 5 of the project report.
+
+## Self-Healing Concept
+The system monitors changes in incoming data and triggers retraining
+when noticeable pattern shifts occur.
+
+## Academic Note
+This project is developed as part of the BCA (Data Science) final-year
+project at Amity University Online.
